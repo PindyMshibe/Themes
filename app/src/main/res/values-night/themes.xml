@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BatsumiSA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorAccent</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="Theme.BatsumiSA.NoActionBar">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="pageBackground">@style/page_background</item>
+        <item name="textSubHeader">@style/text_SubHeader</item>
+        <item name="textLarge">@style/text_large</item>
+        <item name="textRegular">@style/text_regular</item>
+        <item name="whiteBackground">@style/white_background</item>
+        <item name="button">@style/button</item>
+        <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
+
+    </style>
+
+    <style name="Theme.BatsumiSA.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BatsumiSA.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
